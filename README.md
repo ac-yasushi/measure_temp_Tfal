@@ -1,2 +1,4 @@
-# measure_temp_Tfal
-Measuring of temperature of T-fal by NN, keras
+# T-falの温度を機械学習(keras)を用いて測ってみる。
+T-falに水を1L入れた状態で音声を取得しFFTにかけてスペクトルに分解する。
+スペクトルと温度の教師データをいくつか集めた状態でkerasでモデルを組み立てて温度を測定する。  
+非破壊式のリアルタイム温度測定である。
